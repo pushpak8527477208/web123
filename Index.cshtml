@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Example</title>
+</head>
+<body>
+    @using (Html.BeginForm("TriggerWindowsApplication", "Home", FormMethod.Post))
+    {
+        <button type="submit">Click Me</button>
+    }
+</body>
+</html>
